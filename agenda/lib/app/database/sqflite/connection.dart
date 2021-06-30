@@ -1,5 +1,5 @@
 import 'dart:async';
-import 'package:agenda_crud/app/database/sqlite/script.dart';
+import 'package:agenda_crud/app/database/sqflite/script.dart';
 import 'package:path/path.dart';
 import 'package:sqflite/sqflite.dart';
 

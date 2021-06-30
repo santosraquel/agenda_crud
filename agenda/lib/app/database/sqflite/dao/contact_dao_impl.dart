@@ -1,8 +1,8 @@
 
 import 'package:sqflite/sqflite.dart';
 
-import 'package:agenda/app/domain/entities/contact.dart';
-import 'package:agenda/app/domain/interfaces/contact_dao.dart';
+import 'package:agenda_crud/app/domain/entities/contact.dart';
+import 'package:agenda_crud/app/domain/interfaces/contact_dao.dart';
 
 import '../connection.dart';
 
@@ -47,5 +47,4 @@ class ContactDAOImpl implements ContactDAO{
       _db.rawUpdate(sql,[contact.nome, contact.telefone, contact.email, contact.urlAvatar, contact.id]);
     }
   }
-
 }

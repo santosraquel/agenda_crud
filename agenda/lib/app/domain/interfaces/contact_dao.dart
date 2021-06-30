@@ -1,6 +1,4 @@
-
-
-import 'package:agenda/app/domain/entities/contact.dart';
+import 'package:agenda_crud/app/domain/entities/contact.dart';
 
 abstract class ContactDAO{
 

@@ -6,6 +6,6 @@ import 'package:get_it/get_it.dart';
 setupInjection(){
   GetIt getIt = GetIt.I;
 
-  getIt.registerSingleton<ContactDAO>(ContactDAOImpl());
+  getIt.registerSingleton<ContactDAO>(ContactDAOMySQL());
   getIt.registerSingleton<ContactService>(ContactService());
 }

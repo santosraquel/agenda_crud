@@ -85,8 +85,7 @@ class ContactList extends StatelessWidget {
                                 _back.goToForm(context, contato);
                               }),
                               iconRemoveButton(context, (){
-                                _back.remove(contato.id);
-                                Navigator.of(context).pop();
+                                _back.remove(contato.id, context);
                               })
                             ],
                           ),
